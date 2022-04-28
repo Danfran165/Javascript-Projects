@@ -5,11 +5,11 @@ document.write ("\"Be who you are and say what you feel,"
 + "-Dr. Suess") ; 
 var D = "Hi there";
 document.write (D)
-fontcolor("blue");
+
 var family = "the frangiones", Mom = "Danielle" , Mommy = "Sierra" , Dog = "Bear";
 document.write(Mommy);
 
 document.write (3+3);//my code is adding three plus three
-function changecolor(blue) {
-    document.bgcolor=red;
-}
+
+let text = "Hello World!";
+let result = text.fontcolor ("blue");
