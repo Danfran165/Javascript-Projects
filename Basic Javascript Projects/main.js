@@ -13,3 +13,4 @@ document.write (3+3);//my code is adding three plus three
 
 let text = "Hello World!";
 let result = text.fontcolor ("blue");
+changeColor ("red");
