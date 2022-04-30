@@ -1,4 +1,4 @@
-function addition_Funtion () {
+function addition_Function() {
     var addition = 4 + 6;
     document.getElementById("Math") .innerHTML = " 4 + 6 = " + addition;
 }
@@ -8,7 +8,7 @@ function subtraction_Function() {
     document.getElementById("Math").innerHTML = "6 - 4 =" + subtraction;
 }
 
-function multiplication () {
+function multiplication() {
     var multiplication = 8 * 7;
     document.getElementById("Math").innerHTML = "8 * 7 = " + simple_Math;
 }
@@ -18,10 +18,10 @@ function division() {
     document.getElementById("Math").innerHTML = "48 / 6 ="  + simple_Math;
 }
 
-function more_Math () {
+function more_Math() {
     var simple_Math = (1+2) * 10 / 2 -5;
-    document.getElementById("Math").innerHTML = "1 plus 2, multiplied by 10,
-    divided in half and then subtracted by 5 equals " + simple_Math;
+    document.getElementById("Math").innerHTML = `1 plus 2, multiplied by 10
+    divided in half and then subtracted by 5 equals ` + simple_Math;
 
 }
 
@@ -40,7 +40,7 @@ y++;
 document.write(y);
 
 var z = 5.25;
-x--;
+z--;
 document.write(z);
 
 window.alert(Math.random());
