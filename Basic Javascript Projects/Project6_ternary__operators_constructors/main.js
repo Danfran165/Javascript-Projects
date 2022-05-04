@@ -1,8 +1,8 @@
 document.write(Bigger =(7>2) ? "Left number is bigger":"Right number is bigger");
 function Ride_Function() {
 var Height, Can_ride;
-Height = document.getElementById("Height") .value;
-Can_ride = (Height < 52) ? "You are too short":"You are tall enough";
+Height = document.getElementById("Height").value;
+Can_ride = (Height< 52) ? "You are too short":"You are tall enough";
 document.getElementById("Ride").innerHTML = Can_ride + " to ride. ";
 
 }
@@ -22,7 +22,7 @@ function myFunction() {
     "manufactured in" + Jack.Vehicle_Year;
 }
 
-function myFunction() {
+function greeting() {
 document.getElementById("New_and_This").innerHTML =
 "Hi there";
 }
