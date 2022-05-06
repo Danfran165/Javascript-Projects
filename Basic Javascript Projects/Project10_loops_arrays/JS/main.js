@@ -15,3 +15,49 @@ function for_Loop() {
     }
     document.getElementById("List_of_Instruments").innerHTML = Content;
 }
+
+const fruits = ["Banana", "Orange", "Apple"];
+document.getElementById("Array").innerHTML = fruits.toString();
+
+
+function myFunction() {
+    var carName = "Honda";
+    document.getElementById("Example").innerHTML = carName;
+
+}
+
+function constant_function() {
+    const Muscial_Instrument = {type:"guitar", brand:"Fender", color: "black"};
+    Muscial_Instrument.color = "blue";
+    Muscial_Instrument.price = "$900";
+    document.getElementById("Constant").innerHTML = "The cost of the " +
+        Muscial_Instrument.type + " was " + Muscial_Instrument.price;
+
+
+
+
+}   
+
+var X = 82;
+document.write(X);
+{
+    var X = 33;
+    document.write("<br>" + X);
+}
+document.write("<br>" + X);
+
+
+function myFunction() {
+    return Math.PI;
+}
+
+let car = {
+    make: "Dodge ",
+    model: "Viper ",
+    year: "2021 ",
+    color: "red ",
+    description : function() {
+        return "The car is a " + this.year + this.color + this.make + this.model;
+    }
+};
+document.getElementById("Car_Object").innerHTML = car.description();
