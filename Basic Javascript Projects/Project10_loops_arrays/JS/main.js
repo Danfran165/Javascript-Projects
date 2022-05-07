@@ -10,7 +10,7 @@ var Instruments =["Guitar", "Drums", "Piano", "Bass", "Violin", "Trumpet", "Flut
 var Content = "";
 var Y;
 function for_Loop() {
-    for (Y = 0; Y < Instruments .length; Y++) {
+    for (Y = 0; Y < Instruments.length; Y++) {
         Content += Instruments[Y] + "<br>";
     }
     document.getElementById("List_of_Instruments").innerHTML = Content;
@@ -32,11 +32,18 @@ function constant_function() {
     Muscial_Instrument.price = "$900";
     document.getElementById("Constant").innerHTML = "The cost of the " +
         Muscial_Instrument.type + " was " + Muscial_Instrument.price;
+}
+
+
+function array_Function() {
+    var greeting = "Hello all";
+    document.getElementById("Array").innerHTML = greeting;
+
+}
 
 
 
 
-}   
 
 var X = 82;
 document.write(X);
