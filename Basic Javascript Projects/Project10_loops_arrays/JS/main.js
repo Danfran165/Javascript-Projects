@@ -1,7 +1,8 @@
-while (i < 10) {
+ while (i < 10) {
     text += "The number is " + i;
     i++;
 }
+
 
 let text = "Hello World!";
 let length = text.length;
