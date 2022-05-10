@@ -1,8 +1,11 @@
- function  myFunction() {
+ function number_function() {
+ let i = 0;
+ let text2 = 'while loop <br>'
  while (i < 10) {
-    text += "The number is " + i;
+    text2 += "The number is " + i + '<br';
     i++;
     }
+    document.getElementById('number').innerHTML = text2;
 }
 
 let text = "Hello World!";
