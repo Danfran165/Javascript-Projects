@@ -2,7 +2,7 @@
  let i = 0;
  let text2 = 'while loop <br>'
  while (i < 10) {
-    text2 += "The number is " + i + '<br';
+    text2 += "The number is " + i + '<br>';
     i++;
     }
     document.getElementById('number').innerHTML = text2;
